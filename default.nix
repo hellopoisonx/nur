@@ -17,6 +17,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   wemeet = pkgs.callPackage ./pkgs/wemeet { };
+  mihomo-party = pkgs.callPackage ./pkgs/mihomo-party { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
