@@ -9,7 +9,7 @@
   nspr,
   alsa-lib,
   openssl,
-  webkitgtk_4_0,
+  webkitgtk_4_1,
   udev,
   libayatana-appindicator,
   libGL,
@@ -36,7 +36,7 @@ stdenv.mkDerivation {
     nspr
     alsa-lib
     openssl
-    webkitgtk_4_0
+    webkitgtk_4_1
     (lib.getLib stdenv.cc.cc)
   ];
 
